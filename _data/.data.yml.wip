@@ -1,0 +1,172 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+sidebar:
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: False # set to False if you want education in main section instead of in sidebar
+
+  # Profile information
+  name: Zach Pendleton
+  tagline: "Zach, you seem like a solid guy." –Steve Jobs (Louisville, Ky; April of 2009)
+  avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+  # Sidebar links
+  email: asmrtfm@gmail.com
+  linkedin:
+  github: asmrtfm
+
+  interests:
+    - item: Software Development
+      link:
+
+    - item: Programming, Scripting, Hacking
+      link:
+
+    - item: Automated Systems
+      link:
+
+    - item: Generative AI, Large Language Models, Neural Networks (artificial and otherwise)
+      link:
+
+    - item: Electrical Engineering
+      link:
+
+    - item: Writing Music, Graphic Design, Animation, Content Creation
+      link:
+
+career-profile:
+  title: About Me
+#  summary: |
+#      I believe I represent a somewhat scarce section of _ that remember before phones, able to recognize both the utility and limitations of AI / Large Language Models, 
+#      I predict that as we move forward into this new landscape that what perhaps seems like an ethical mandate will inevitably represent a fincanical impact
+#      That is, for companies who leverage the power of automated systems to rigorously anticipate how these technologies could impact consumers, not only for the consumers' sake, but
+#      because the way a company behaves in the face of various edge-cases will inevitably represent public relations that the ways in which edge-cases are handled will  to demonstrate 
+#      In otherwords, to gain the power of automation without sacrificing their humanity.
+
+experiences:
+  - role: Chief Technology Officer
+    time: 2023 - Present
+    company: Night District LLC
+    details: |
+      I was originally brought on as a fullstack consultant to assist the startup's
+      small team of developers during a tumultuous infrastructure migration.
+      I helped improve the teams forward security posture through standard
+      server hardenning techinques and by introducing various best practices
+      into the team's workflow such as public key based authentication and
+      sercrets management for the numerous 3rd party service accounts
+      registered to the project.
+      The team and I discovered numerous vulnerabilities left behind by
+      former contractors, of which I was able to provide critical analysis
+      that enabled an actionable response strategy for stakeholders.
+      Shortly thereafter, in December of 2023, I was offered to join the
+      company and to assume the role of acting CTO.
+      Since then, I have made significant contributions across the
+      project's (MERN) software stack, including
+      - restructuring and migrating MongoDB database clusters,
+      - refactoring the frontend ReactJS codebase,
+      - refactoring the nodejs backend API server,
+      - optized various schema used by the above in addition to the
+        project's set of multiplatform e-commerce mobile applications
+        as well as the company's internal management panel.
+
+  - role: "Pitmaster" (Production Manager)
+    time: Feb 2016 – April 2018
+    company: Bourbon Barrel Foods LLC
+    details: |
+      I was a key-holder, managed purchase orders, and was responsible
+      for all hiring and training in my department. I maintained production
+      logs and other required documentation and acted as liason during audits.
+      Additionally, I pursued numerous pet-projects within the company that
+      proved to be successful.
+      - I augmented our mandated pen-and-paper logging workflow with digitally
+        tracked raw material quantities, usage rates, and other metrics
+        which until then had gone untracked. Collating these data afforded
+        new analytical insights that allowed my department to provide
+        clients with more accurate fufillment dates and also helped
+        to decongest our shipping/receiving department.
+      - I devised and implemented a novel "relational" production strategy
+        which increased my team's agility and measurably improved our efficieny.
+      - I was passionate about collaborating with other local businesses.
+        To that end, I facilitated a customizable product ordering process
+        which involved estimating individual concepts' material needs,
+        providing consultation, and at times personally advocating on
+        their behalf when special accomodations became necessary.
+
+  - role: Technical Support
+    company: The ICT Group (AppleCare)
+    time: Aug 2008 – May 2011
+    details: |
+      Positions held:
+        - [Tier 2] CPU Advisor
+        - [Tier 1] iPhone Advisor
+        - [Tier 1] iPod Advisor
+      Provided technical support for all Apple products lines including warrant services.
+      Worked in tandem with other AppleCare support-groups - occasionally providing coaching
+      to team members and new-hires.
+
+  - role: High Speed Data Specialist II; Value Added Service
+    time: Mar – Aug 2008
+    company: Charter Communications
+    details: |
+      - Provided Tier 1 technical support for HSI(high speed internet) customers.
+      - Provided Tier 2 technical support for escalated networking calls.
+      - Provided basic technical support for Charter’s custom anti-virus program “CHEESE.”
+      - Fulfillment of mandated sales metrics.
+      - Usage of Solarwinds.
+      - Worked alongside other support teams.
+      - Deemed exceptional in de-escelation and provided retention coaching to new team mates.
+      - Proficient use of internal knowledge base.
+
+
+#projects:
+#  title: Projects
+#    intro: >
+#      Contributions to the open-source community
+#    assignments:
+#      - title: 
+#        link: ""
+#        tagline: ""
+#
+#      - title:
+#        link: "https://github.com/<>/<>/pull/<>"
+#        tagline: ""
+#
+#      - title: check_connection
+#        link: "https://github.com/sprinklr/..."
+#        tagline: "checks if a given host is reachable on a given port over a given protocol;"
+
+
+education:
+    - degree: High School Diploma; Tech major, Business Law minor
+      university: Sudo E. Butler Traditional Highschool
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Bash
+        level: 93%
+
+      - name: Python
+        level: 72%
+
+      - name: JavaScript
+        level: 69%
+
+      - name: Golang
+        level: 63%
+
+      - name: Flutter
+        level: 45%
+
+      - name: PowerShell
+        level: 50%
+
+      - name: Communication
+        level: 80%
+
+      - name: Automation
+        level: 75%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
