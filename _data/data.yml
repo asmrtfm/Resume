@@ -2,174 +2,159 @@
 # Be aware that even a small syntax error here can lead to failures in output.
 #
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False
+    education: True
 
-    # Profile information
-    name: Mack Wilcox
-    tagline: Cyber Security Professional 
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Zach Pendleton
+    #tagline: "Zach, you seem like a solid guy." –Steve Jobs (Louisville, Ky; April of 2009)
+    avatar: profile.png
 
-    # Sidebar links
-    email: mwilco03@gmail.com
-    linkedin: wilcom03
-    github: mwilco03
-    
+    email: asmrtfm@gmail.com
+    #linkedin:
+    github: asmrtfm
+
     interests:
-      - item: Hacking
+      - item: Software Development
         link:
 
-      - item: Electronics
+      - item: Programming, Scripting, Hacking
         link:
 
-      - item: Engineering
+      - item: Automated Systems
         link:
-        
-      - item: TS Cleared
+
+      - item: Generative AI, Large Language Models, Neural Networks (artificial and otherwise)
+        link:
+
+      - item: Electrical Engineering
+        link:
+
+      - item: Writing Music, Graphic Design, Animation, Content Creation
         link:
 
 career-profile:
     title: Career Profile
-    summary: |
-      Dynamic Cybersecurity Leader & Military Veteran with deep expertise in incident response,
-      offensive security, and systems administration. Proven success in leading teams to identify,
-      analyze, and mitigate cyber threats. Skilled in threat intelligence, risk management, and
-      security automation. Excels in driving continuous improvement and building resilient
-      security postures against modern threats.
-      
+    summary:
+
 education:
-    - degree: Information Technology Specialist (25B)
-      university: Fort Gordon Signal Center
-    - degree: Cyber Warfare Operator (1B4x1)
-      university: Michigan Air National Guard
-    - degree: Cyber Protection Team Core
-      university: Defense Cyber Investigation Training
-    - degree: Cyber Protection Team Compliance Readiness
-      university: Defense Cyber Investigation Training
-    - degree: Advanced Web Application Testing
-      university: Derbycon IX 
-    - degree: SEC573 Automating Information Security with Python
-      university: SANS      
+    - degree: High School Diploma; Tech major, Business Law minor
+      university: Sudo E. Butler Traditional Highschool
+
 experiences:
-    - role: Lead Incident Responder
+    - role: Chief Technology Officer
       time: 2023 - Present
-      company: Sprinklr
+      company: Night District LLC
       details: |
-        As a Lead Incident Responder, led a team in identifying, analyzing, 
-        and mitigating cyber threats in real-time. Developed and refined 
-        incident response protocols to ensure rapid and effective action. 
-        Worked closely with cross-functional teams to improve security 
-        posture and resilience against attacks.
-          - Threat Intelligence Analysis
-          - Incident Response Planning
-          - Team Leadership
-          - Security Automation
-          - Stakeholder Communication
-          - Continuous Improvement Initiatives
-    - role: Incident Response
-      time: 2020 - 2023
-      company: Nationwide
+        I was originally brought on as a fullstack consultant to assist the startup's
+        small team of developers during a tumultuous infrastructure migration.
+        I helped improve the teams forward security posture through standard
+        server hardenning techinques and by introducing various best practices
+        into the team's workflow such as public key based authentication and
+        sercrets management for the numerous 3rd party service accounts
+        registered to the project.
+        The team and I discovered numerous vulnerabilities left behind by
+        former contractors, of which I was able to provide critical analysis
+        that enabled an actionable response strategy for stakeholders.
+        Shortly thereafter, in December of 2023, I was offered to join the
+        company and to assume the role of acting CTO.
+        Since then, I have made significant contributions across the
+        project's (MERN) software stack, including
+        - restructuring and migrating MongoDB database clusters,
+        - refactoring the frontend ReactJS codebase,
+        - refactoring the nodejs backend API server,
+        - optized various schema used by the above in addition to the
+          project's set of multiplatform e-commerce mobile applications
+          as well as the company's internal management panel.
+    - role: "Pitmaster" (Production Manager)
+      time: Feb 2016 – April 2018
+      company: Bourbon Barrel Foods LLC
       details: |
-        Incident responders react to emergent cyber security events that 
-        pose an imminent concern to an organization. Preforming analysis
-        of suspected compromised systems. Evaluation of operational 
-        intelligence. Reviewing novel exploits and enterprise impact.
-          - Forensic Analysis
-          - Adversary Emulation
-          - Risk Management
-          - Compliance
-          - Vulnerability Mgmt. / Mitigation 
-          - Automation     
-    - role: Senior Offensive Security Engineer
-      time: 2018 - 2020
-      company: The Wendy's Company
+        I was a key-holder, managed purchase orders, and was responsible
+        for all hiring and training in my department. I maintained production
+        logs and other required documentation and acted as liason during audits.
+        Additionally, I pursued numerous pet-projects within the company that
+        proved to be successful.
+        - I augmented our mandated pen-and-paper logging workflow with digitally
+          tracked raw material quantities, usage rates, and other metrics
+          which until then had gone untracked. Collating these data afforded
+          new analytical insights that allowed my department to provide
+          clients with more accurate fufillment dates and also helped
+          to decongest our shipping/receiving department.
+        - I devised and implemented a novel "relational" production strategy
+          which increased my team's agility and measurably improved our efficieny.
+        - I was passionate about collaborating with other local businesses.
+          To that end, I facilitated a customizable product ordering process
+          which involved estimating individual concepts' material needs,
+          providing consultation, and at times personally advocating on
+          their behalf when special accomodations became necessary.
+    - role: Technical Support
+      company: The ICT Group (AppleCare)
+      time: Aug 2008 – May 2011
       details: |
-        Offensive Security conduct adversary emulation on a enterprise 
-        scale. Engaging in phishing, vishing, employing threat actor
-        tactics techniques and procedures. Developing a more resilient 
-        organization. Finding the bad before the bad finds you.
-          - Exploitation 
-          - Privilege Escalation 
-          - Enumeration 
-          - Automation
-          - OWASP 
-          - Secure Development
-    - role: Systems Administrator
-      time: 2013 - 2018
-      company: Saginaw Veterans Affairs Medical Center
+        Positions held
+          - [Tier 2] CPU Advisor
+          - [Tier 1] iPhone Advisor
+          - [Tier 1] iPod Advisor
+        Provided technical support for all Apple products lines including warrant services.
+        Worked in tandem with other AppleCare support-groups - occasionally providing coaching
+        to team members and new-hires.
+    - role: High Speed Data Specialist II; Value Added Service
+      time: Mar – Aug 2008
+      company: Charter Communications
       details: |
-        Developed cache server pages, remediated records electronic 
-        health records. Conducted traditional helpdesk operations, 
-        ticket queue, maintenance, network, device, and systems 
-        configurations. Managed domain active directory.
-        
+        - Provided Tier 1 technical support for HSI(high speed internet) customers.
+        - Provided Tier 2 technical support for escalated networking calls.
+        - Provided basic technical support for Charter’s custom anti-virus program “CHEESE.”
+        - Fulfillment of mandated sales metrics.
+        - Usage of Solarwinds.
+        - Worked alongside other support teams.
+        - Deemed exceptional in de-escelation and provided retention coaching to new team mates.
+        - Proficient use of internal knowledge base.
+
 projects:
     title: Projects
     intro: >
       Contributions to the open-source community
     assignments:
-      - title: Prisma Cloud Compute (Twistlock) Splunk TA
-        link: "https://github.com/PaloAltoNetworks/prisma-cloud-compute-splunk"
-        tagline: "Python Twistlock logging to Splunk"
+      - title: Night District
+        link: "https://nightdistrict.co/"
+        tagline: "The future of nightlife is here."
 
-      - title: Kansa
-        link: "https://github.com/davehull/Kansa/pull/208"
-        tagline: "PowerShell Incident Response framework"
-      
-      - title: DC614 DC-27-Badge
-        link: "https://github.com/dc614/DC-27-Badge"
-        tagline: "Badge Designer"
+      - title: NetstatYeeter
+        link: "https://github.com/mwilco03/NetstatYeeter/commit/281cf2b3e1a519d658b70545b0312a1d0943dbcb"
+        #tagline: ""
 
-      - title: FalconPy 
-        link: "https://github.com/BloodHoundAD/SharpHound"
-        tagline: "The CrowdStrike Falcon SDK for Python"
-
-      - title: SharpHound 
-        link: "https://github.com/CrowdStrike/falconpy"
-        tagline: "C# Data Collector for BloodHound"
-
-publications:
-    title: Presentations
-    intro: |
-      List of presfentations I have hosted/co-hosted
-      for the community bettering myself and bettering 
-      the community.
-    papers:
-      - title: Let's NMAP together
-        link: "https://www.infosecsummit.com/ehome/2019cbusinfosec/agenda/"
-        authors: Andrew List, Mack Wilcox
-        conference: 2019 Central Ohio InfoSec Summit
-
-      - title: "PowerShell"
-        link: "https://github.com/dc614/presentations/blob/master/2020-07-09_Powershell_Hackin_with_Quix/POWERSHELL_HACKIN_W__QUIX.pdf"
-        authors: Mack Wilcox
-        conference: "July 2020 DC614"
-
-      - title: Well that escalated quickly
-        authors: Mack Wilcox
-        link: "#"
-        conference: "March 2020 DC614"
-        
-      - title: How to track friends and meet interesting people!
-        authors: Mack Wilcox
-        link: "https://2022.hthackers.com/#/agenda?day=4&lang=en"
-        conference: "Hackers Teaching Hackers 2022"
+      - title: chkcon
+        link: "https://github.com/asmrtfm/chkcon"
+        tagline: "basic connectivity checking"
 
 skills:
-    title: Skills &amp; Proficiency
+  title: Skills &amp; Proficiency
 
-    toolset:
-      - name: PowerShell
-        level: 98%
+  toolset:
+    - name: Bash
+      level: 93%
 
-      - name: Python
-        level: 98%
+    - name: Python
+      level: 72%
 
-      - name: JavaScript
-        level: 65%
+    - name: JavaScript
+      level: 69%
 
-      - name: Automation
-        level: 85%
+    - name: Golang
+      level: 63%
+
+    - name: Flutter
+      level: 45%
+
+    - name: PowerShell
+      level: 50%
+
+    - name: Communication
+      level: 80%
+
+    - name: Automation
+      level: 75%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
