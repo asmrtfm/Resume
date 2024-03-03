@@ -129,32 +129,32 @@ projects:
         tagline: "basic connectivity checking"
 
 skills:
-  title: Skills &amp; Proficiency
+    title: Skills &amp; Proficiency
 
-  toolset:
-    - name: Bash
-      level: 93%
+    toolset:
+      - name: Bash
+        level: 93%
 
-    - name: Python
-      level: 72%
+      - name: Python
+        level: 72%
 
-    - name: JavaScript
-      level: 69%
+      - name: JavaScript
+        level: 69%
 
-    - name: Golang
-      level: 63%
+      - name: Golang
+        level: 63%
 
-    - name: Flutter
-      level: 45%
+      - name: Flutter
+        level: 45%
 
-    - name: PowerShell
-      level: 50%
+      - name: PowerShell
+        level: 50%
 
-    - name: Communication
-      level: 80%
+      - name: Communication
+        level: 80%
 
-    - name: Automation
-      level: 75%
+      - name: Automation
+        level: 75%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
