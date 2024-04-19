@@ -60,6 +60,7 @@ experiences:
         company and to assume the role of acting CTO.
         Since then, I have made significant contributions across the
         project's (MERN) software stack, including
+        - dockerizing the backend api server and reconfiguring nginx to support load balancing and kubernetes integration,
         - restructuring and migrating MongoDB database clusters,
         - refactoring the frontend ReactJS codebase,
         - refactoring the nodejs backend API server,
