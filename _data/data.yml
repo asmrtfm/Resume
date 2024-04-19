@@ -41,7 +41,7 @@ education:
       university: Sudo E. Butler Traditional Highschool
 
 experiences:
-    - role: Chief Technology Officer
+    - role: Acting Chief Technology Officer
       time: 2023 - Present
       company: Night District LLC
       details: |
@@ -50,11 +50,12 @@ experiences:
         I helped improve the teams forward security posture through standard
         server hardenning techinques and by introducing various best practices
         into the team's workflow such as public key based authentication and
-        sercrets management for the numerous 3rd party service accounts
+        sercrets management for 3rd party service accounts
         registered to the project.
-        The team and I discovered numerous vulnerabilities left behind by
-        former contractors, of which I was able to provide critical analysis
-        that enabled an actionable response strategy for stakeholders.
+        After discovering numerous vulnerabilities left behind by
+        former contractors, I was able to provide critical analysis
+        that enabled an actionable response strategy for the team as well
+        as the project's stakeholders.
         Shortly thereafter, in December of 2023, I was offered to join the
         company and to assume the role of acting CTO.
         Since then, I have made significant contributions across the
