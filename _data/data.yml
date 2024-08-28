@@ -23,13 +23,13 @@ sidebar:
       - item: Automated Systems
         link:
 
-      - item: Generative AI, Large Language Models, Neural Networks (artificial and otherwise)
+      - item: Machine Learning
         link:
 
       - item: Electrical Engineering
         link:
 
-      - item: Writing Music, Graphic Design, Animation, Content Creation
+      - item: Writing Music
         link:
 
 career-profile:
@@ -41,32 +41,31 @@ education:
       university: Sudo E. Butler Traditional Highschool
 
 experiences:
-    - role: Acting Chief Technology Officer
+    - role: Lead Backend Engineer
       time: 2023 - Present
       company: Night District LLC
       details: |
-        I was originally brought on as a fullstack consultant to assist the startup's
-        small team of developers during a tumultuous infrastructure migration.
-        I helped improve the teams forward security posture through standard
-        server hardenning techinques and by introducing various best practices
-        into the team's workflow such as public key based authentication and
+        Initially I was brought on as a fullstack consultant to advise the startup's
+        small development team during a tumultuous infrastructure migration.
+        I helped improve the teams forward security posture, hardenned their nginx server,
+        setup monitoring, and by introducing various best practices
+        such as public key based authentication and
         sercrets management for 3rd party service accounts
-        registered to the project.
+        registered to the project (as well as environmental secrets).
         After discovering numerous vulnerabilities left behind by
         former contractors, I was able to provide critical analysis
         that enabled an actionable response strategy for the team as well
         as the project's stakeholders.
         Shortly thereafter, in December of 2023, I was offered to join the
-        company and to assume the role of acting CTO.
-        Since then, I have made significant contributions across the
-        project's (MERN) software stack, including
+        company as lead back engineer (and briefly held the role of acting C.T.O.)
+        Since then, I have been one of the primary contributers across the following projects iwthin the company:
+        - rewritting the network stack - moving away from websockets to a rest API, (which we are currenty rewriting in Rails),
         - dockerizing the backend api server and reconfiguring nginx to support load balancing and kubernetes integration,
         - restructuring and migrating MongoDB database clusters,
-        - refactoring the frontend ReactJS codebase,
-        - refactoring the nodejs backend API server,
+        - refactoring two legacy frontend codebases (Flutter and ReactJS, respectively),
         - optized various schema used by the above in addition to the
           project's set of multiplatform e-commerce mobile applications
-          as well as the company's internal management panel.
+          and the company's internal management panel.
     - role: Pitmaster (Production Manager)
       time: Feb 2016 – April 2018
       company: Bourbon Barrel Foods LLC
@@ -137,20 +136,20 @@ skills:
       - name: Bash
         level: 93%
 
+      - name: JavaScript
+        level: 80%
+
       - name: Python
         level: 72%
 
-      - name: JavaScript
-        level: 69%
+      - name: Flutter
+        level: 60%
 
       - name: Golang
-        level: 63%
-
-      - name: Flutter
-        level: 45%
+        level: 50%
 
       - name: PowerShell
-        level: 50%
+        level: 42%
 
       - name: Communication
         level: 80%
