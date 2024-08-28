@@ -148,8 +148,11 @@ skills:
       - name: Golang
         level: 50%
 
-      - name: PowerShell
+      - name: Ruby
         level: 42%
+
+      - name: PowerShell
+        level: 39%
 
       - name: Communication
         level: 80%
