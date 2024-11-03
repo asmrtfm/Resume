@@ -7,6 +7,7 @@ sidebar:
 
     name: Tanner Pendleton
     email: tpendleton93@gmail.com
+    phone: 502-445-3052
 
 career-profile:
     title: Career Profile
@@ -17,6 +18,17 @@ career-profile:
       I am highly focused and committed to achieving production goals while prioritizing safety and quality standards.
       My determination to excel in my responsibilities drives me to consistently meet and exceed expectations.
       I believe in fostering a positive work environment through teamwork and communication, and I am excited about the prospect of contributing my skills and dedication to a forward-thinking company.
+
+    title: Skills
+    summary: |
+    skills:
+        - Production Optimization
+        - Warehouse Operations
+        - Quality Assurance
+        - Heavy Machinery Operation
+        - Worksite Safety
+        - Inventory Control
+        - Proficient Microsoft Excel
 
 education:
     - degree: High School Diploma; 2011
@@ -56,17 +68,6 @@ experiences:
       details: |
         Picked recently ordered items to prepare for shipping.
         Consolidated various areas within the warehouse, measurably improving my department's operational efficiency.
-
-skills:
-    title: Skills
-
-    - Production Optimization
-    - Warehouse Operations
-    - Quality Assurance
-    - Heavy Machinery Operation
-    - Worksite Safety
-    - Inventory Control
-    - Proficient Microsoft Excel
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
