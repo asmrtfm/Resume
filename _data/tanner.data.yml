@@ -1,0 +1,73 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+sidebar:
+    about: False
+    education: True
+
+    name: Tanner Pendleton
+    email: tpendleton93@gmail.com
+    phone: 502-445-3052
+
+career-profile:
+    title: Career Profile
+    summary: |
+      I am an enthusiastic and dedicated professional seeking to make a meaningful contribution to a dynamic organization and a collaborative team.
+      With a strong work ethic and a reputation for dependability, I consistently strive to deliver high-quality results.
+      I bring a proactive attitude and a genuine eagerness to learn and grow within my role,embracing new challenges and opportunities for personal and professional development.
+      I am highly focused and committed to achieving production goals while prioritizing safety and quality standards.
+      My determination to excel in my responsibilities drives me to consistently meet and exceed expectations.
+      I believe in fostering a positive work environment through teamwork and communication, and I am excited about the prospect of contributing my skills and dedication to a forward-thinking company.
+
+    title: Skills
+    summary: |
+    skills:
+        - Production Optimization
+        - Warehouse Operations
+        - Quality Assurance
+        - Heavy Machinery Operation
+        - Worksite Safety
+        - Inventory Control
+        - Proficient Microsoft Excel
+
+education:
+    - degree: High School Diploma; 2011
+      university: Sudo E. Butler Traditional Highschool
+
+experiences:
+    - role: Equipment Operator / Team Lead
+      company: Yusen Logistics (Louisville, Ky)
+      time: September 2020 – Present
+      details: |
+        Pick and process products to prepare for shipping using certain equipment and software.
+
+    - role: Lathe Operator
+      company: Zoeller Company (Louisville, Ky)
+      time: June 2019 – November 2019
+      details: |
+        Setup and operate machinery according to daily work orders and safety proceedures.
+        Thoroughly check parts for quality of production using calibrated guages.
+
+    - role: Housekeeping
+      company: Jefferson County Public Schools (Louisville, Ky)
+      time: January 2016 – May 2019
+      details: |
+        Maintained the safety and cleanliness of assigned school buildings.
+        Summer work consisted of moving out classrooms to prepare them for floor stripping, waxing, and other miscellaneous tasks.
+
+    - role: ABS Assembly
+      company: Dynacraft (Louisville, Ky)
+      time: April 2014 – November 2015
+      details: |
+        Assembled anti-lock braking system valves according to graphical representations of their technical specification.
+        Helped maintain OSHA compliance.
+
+    - role: Picker, Consolidation
+      company: Ebay Inc. (Louisville, Ky)
+      time: August 2012 – April 2014
+      details: |
+        Picked recently ordered items to prepare for shipping.
+        Consolidated various areas within the warehouse, measurably improving my department's operational efficiency.
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

@@ -5,69 +5,160 @@ sidebar:
     about: False
     education: True
 
-    name: Tanner Pendleton
-    email: tpendleton93@gmail.com
-    phone: 502-445-3052
+    name: Zach Pendleton
+    #tagline: "Zach, you seem like a solid guy." –Steve Jobs (Louisville, Ky; April of 2009)
+    avatar: profile.png
+
+    email: asmrtfm@gmail.com
+    #linkedin:
+    github: asmrtfm
+
+    interests:
+      - item: Software Development
+        link:
+
+      - item: Programming, Scripting, Hacking
+        link:
+
+      - item: Automated Systems
+        link:
+
+      - item: Machine Learning
+        link:
+
+      - item: Electrical Engineering
+        link:
+
+      - item: Writing Music
+        link:
 
 career-profile:
     title: Career Profile
-    summary: |
-      I am an enthusiastic and dedicated professional seeking to make a meaningful contribution to a dynamic organization and a collaborative team.
-      With a strong work ethic and a reputation for dependability, I consistently strive to deliver high-quality results.
-      I bring a proactive attitude and a genuine eagerness to learn and grow within my role,embracing new challenges and opportunities for personal and professional development.
-      I am highly focused and committed to achieving production goals while prioritizing safety and quality standards.
-      My determination to excel in my responsibilities drives me to consistently meet and exceed expectations.
-      I believe in fostering a positive work environment through teamwork and communication, and I am excited about the prospect of contributing my skills and dedication to a forward-thinking company.
-
-    title: Skills
-    summary: |
-    skills:
-        - Production Optimization
-        - Warehouse Operations
-        - Quality Assurance
-        - Heavy Machinery Operation
-        - Worksite Safety
-        - Inventory Control
-        - Proficient Microsoft Excel
+    summary:
 
 education:
-    - degree: High School Diploma; 2011
+    - degree: High School Diploma; Tech major, Business Law minor
       university: Sudo E. Butler Traditional Highschool
 
 experiences:
-    - role: Equipment Operator / Team Lead
-      company: Yusen Logistics (Louisville, Ky)
-      time: September 2020 – Present
+    - role: Lead Backend Engineer
+      time: 2023 - Present
+      company: Night District LLC
       details: |
-        Pick and process products to prepare for shipping using certain equipment and software.
+        Initially I was brought on as a fullstack consultant to advise the startup's
+        small development team during a tumultuous infrastructure migration.
+        I helped improve the teams forward security posture, hardenned their nginx server,
+        setup monitoring, and by introducing various best practices
+        such as public key based authentication and
+        sercrets management for 3rd party service accounts
+        registered to the project (as well as environmental secrets).
+        After discovering numerous vulnerabilities left behind by
+        former contractors, I was able to provide critical analysis
+        that enabled an actionable response strategy for the team as well
+        as the project's stakeholders.
+        Shortly thereafter, in December of 2023, I was offered to join the
+        company as lead back engineer (and briefly held the role of acting C.T.O.)
+        Since then, I have been one of the primary contributers across the following projects iwthin the company:
+        - rewritting the network stack - moving away from websockets to a rest API, (which we are currenty rewriting in Rails),
+        - dockerizing the backend api server and reconfiguring nginx to support load balancing and kubernetes integration,
+        - restructuring and migrating MongoDB database clusters,
+        - refactoring two legacy frontend codebases (Flutter and ReactJS, respectively),
+        - optized various schema used by the above in addition to the
+          project's set of multiplatform e-commerce mobile applications
+          and the company's internal management panel.
+    - role: Pitmaster (Production Manager)
+      time: Feb 2016 – April 2018
+      company: Bourbon Barrel Foods LLC
+      details: |
+        I was a key-holder, managed purchase orders, and was responsible
+        for all hiring and training in my department. I maintained production
+        logs and other required documentation and acted as liason during audits.
+        Additionally, I pursued numerous pet-projects within the company that
+        proved to be successful.
+        - I augmented our mandated pen-and-paper logging workflow with digitally
+          tracked raw material quantities, usage rates, and other metrics
+          which until then had gone untracked. Collating these data afforded
+          new analytical insights that allowed my department to provide
+          clients with more accurate fufillment dates and also helped
+          to decongest our shipping/receiving department.
+        - I devised and implemented a novel "relational" production strategy
+          which increased my team's agility and measurably improved our efficieny.
+        - I was passionate about collaborating with other local businesses.
+          To that end, I facilitated a customizable product ordering process
+          which involved estimating individual concepts' material needs,
+          providing consultation, and at times personally advocating on
+          their behalf when special accomodations became necessary.
+    - role: Technical Support
+      company: The ICT Group (AppleCare)
+      time: Aug 2008 – May 2011
+      details: |
+        Positions held
+          - [Tier 2] CPU Advisor
+          - [Tier 1] iPhone Advisor
+          - [Tier 1] iPod Advisor
+        Provided technical support for all Apple products lines including warrant services.
+        Worked in tandem with other AppleCare support-groups - occasionally providing coaching
+        to team members and new-hires.
+    - role: High Speed Data Specialist II; Value Added Service
+      time: Mar – Aug 2008
+      company: Charter Communications
+      details: |
+        - Provided Tier 1 technical support for HSI(high speed internet) customers.
+        - Provided Tier 2 technical support for escalated networking calls.
+        - Provided basic technical support for Charter’s custom anti-virus program “CHEESE.”
+        - Fulfillment of mandated sales metrics.
+        - Usage of Solarwinds.
+        - Worked alongside other support teams.
+        - Deemed exceptional in de-escelation and provided retention coaching to new team mates.
+        - Proficient use of internal knowledge base.
 
-    - role: Lathe Operator
-      company: Zoeller Company (Louisville, Ky)
-      time: June 2019 – November 2019
-      details: |
-        Setup and operate machinery according to daily work orders and safety proceedures.
-        Thoroughly check parts for quality of production using calibrated guages.
+projects:
+    title: Projects
+    intro: >
+      Contributions to the open-source community
+    assignments:
+      - title: Night District
+        link: "https://nightdistrict.co/"
+        tagline: "The future of nightlife is here."
 
-    - role: Housekeeping
-      company: Jefferson County Public Schools (Louisville, Ky)
-      time: January 2016 – May 2019
-      details: |
-        Maintained the safety and cleanliness of assigned school buildings.
-        Summer work consisted of moving out classrooms to prepare them for floor stripping, waxing, and other miscellaneous tasks.
+      - title: NetstatYeeter
+        link: "https://github.com/mwilco03/NetstatYeeter/commit/281cf2b3e1a519d658b70545b0312a1d0943dbcb"
+        #tagline: ""
 
-    - role: ABS Assembly
-      company: Dynacraft (Louisville, Ky)
-      time: April 2014 – November 2015
-      details: |
-        Assembled anti-lock braking system valves according to graphical representations of their technical specification.
-        Helped maintain OSHA compliance.
+      - title: chkcon
+        link: "https://github.com/asmrtfm/chkcon"
+        tagline: "basic connectivity checking"
 
-    - role: Picker, Consolidation
-      company: Ebay Inc. (Louisville, Ky)
-      time: August 2012 – April 2014
-      details: |
-        Picked recently ordered items to prepare for shipping.
-        Consolidated various areas within the warehouse, measurably improving my department's operational efficiency.
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Bash
+        level: 93%
+
+      - name: JavaScript
+        level: 80%
+
+      - name: Python
+        level: 72%
+
+      - name: Flutter
+        level: 60%
+
+      - name: Golang
+        level: 50%
+
+      - name: Ruby
+        level: 42%
+
+      - name: PowerShell
+        level: 39%
+
+      - name: Communication
+        level: 80%
+
+      - name: Automation
+        level: 75%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
